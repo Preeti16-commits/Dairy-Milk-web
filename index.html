@@ -7,7 +7,7 @@
     <style>
         body{
             background-color:rgb(36, 27, 27) ;
-            color:rgb(127, 126, 123);
+            color: #f0f0f0;;
             font-family:Georgia, 'Times New Roman', Times, serif;
         }
         header{
@@ -73,9 +73,14 @@
 </head>
 <body>
     <header>
-       <h1><a href="https://www.cadbury.co.uk/products/brands/cadbury-dairy-milk/" style="text-decoration: none; color:rgb(127, 126, 123);" target="_blank"></a>Dairy Milk</h1></a>
+       <h1><a href="https://www.cadbury.co.uk/products/brands/cadbury-dairy-milk/" style="text-decoration: none; color:rgb(127, 126, 123);" target="_blank">Dairy Milk</a></h1>
     </header>
-       <img src="https://dayli.in/cdn/shop/files/fb7b7d5c-4ef0-486d-9d1c-5f7f8cb14730.jpg?v=1729163114" title="dairy milk" height="300" alt="dairy milk" style="float: right; padding: 1px 9px;">
+    <section style="text-align: center;">
+        <img src="https://dayli.in/cdn/shop/files/fb7b7d5c-4ef0-486d-9d1c-5f7f8cb14730.jpg?v=1729163114" 
+            alt="dairy milk" title="dairy milk" 
+            style="max-width: 100%; height: auto; margin: 20px 0;">
+    </section>
+
     <main>
         <section>
         <p>
@@ -83,7 +88,12 @@
         </p>
         </section>
         <br>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Cadbury_Dairy_Milk.jpg/1024px-Cadbury_Dairy_Milk.jpg" title="dairy milk" height="300" alt="dairy milk" style="float: left; padding: 10px 40px;">
+        <section style="text-align: center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Cadbury_Dairy_Milk.jpg/1024px-Cadbury_Dairy_Milk.jpg" 
+               alt="dairy milk" title="dairy milk" 
+               style="max-width: 100%; height: auto; margin: 20px 0;">
+        </section>
+
         <section>
         <h2>History-</h2>
         <p>Cadbury chocolate bars (Dairy Milk back of tray), c.1910
@@ -99,7 +109,12 @@
             In 2005, Cadbury celebrated the Centenary 100th Anniversary of Cadbury Dairy Milk. A limited edition bar in reproduced original 1905 packaging was launched.[10]
         </p>
         </section><br>
-        <div style="text-align: center;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Flickr_-_cyclonebill_-_Cadbury_Dairy_Milk_Bubbly.jpg/500px-Flickr_-_cyclonebill_-_Cadbury_Dairy_Milk_Bubbly.jpg" title="dairy milk" height="200" alt="dairy milk" ></div>
+        <section style="text-align: center;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Flickr_-_cyclonebill_-_Cadbury_Dairy_Milk_Bubbly.jpg/500px-Flickr_-_cyclonebill_-_Cadbury_Dairy_Milk_Bubbly.jpg" 
+                alt="dairy milk" title="dairy milk" 
+                style="max-width: 100%; height: auto; margin: 20px 0;">
+        </section>
+
         <section>
             <h2>Variations-</h2>
             <p>
@@ -147,8 +162,8 @@
                   <td>${item.year}</td>    
                 </tr>
                 `;
-                document.getElementById("tabledata").innerHTML=produce;
             });
+            document.getElementById("tabledata").innerHTML=produce;
         });
     </script>
     <footer>
